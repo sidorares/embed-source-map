@@ -1,5 +1,5 @@
 {
-  "name": "embed-source-map",
+  "name": "embed-source-map-src",
   "version": "0.0.1",
   "description": "Convert sourcemaps with external references to inlineable sourcemap",
   "main": "index.js",
