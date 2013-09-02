@@ -9,7 +9,7 @@ Convert sourcemaps with external references to inlineable sourcemap
 ### command line
   $ embed-sm src1.js src2.js src3.js
   
-### example:
+### command line example:
 
   $ embed-sm spine/lib/list.js
   
@@ -33,3 +33,11 @@ to
 */
 ```
 embeeding spine/lib/list.coffee source and encoding to mime/base64 url
+
+### API:
+
+```js
+var embed = require('embed-source-map-src');
+var src = require('fs').readFileSync('../spine/lib/list.js');
+console.log(embed(src));
+```
