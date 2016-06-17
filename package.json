@@ -1,6 +1,6 @@
 {
   "name": "embed-source-map-src",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert sourcemaps with external references to inlineable sourcemap",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "embed-sm": "./bin/embed.js"
   },
   "dependencies": {
-    "convert-source-map": "~0.2.6"
+    "convert-source-map": "~0.2.6",
+    "globby": "^5.0.0"
   },
   "keywords": [
     "sourcemaps",
