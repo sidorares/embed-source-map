@@ -14,8 +14,8 @@
     "embed-sm": "./bin/embed.js"
   },
   "dependencies": {
-    "convert-source-map": "~0.2.6",
-    "globby": "^5.0.0"
+    "convert-source-map": "~1.5.0",
+    "globby": "^6.1.0"
   },
   "keywords": [
     "sourcemaps",
