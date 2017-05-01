@@ -1,6 +1,8 @@
 embed-source-map
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sidorares/embed-source-map.svg)](https://greenkeeper.io/)
+
 Convert sourcemaps with external references to inlineable sourcemap
 
 ### Install
